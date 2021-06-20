@@ -10,8 +10,12 @@ public class Main {
 	obj.PayTut();
 	System.out.println(obj.ShowInfo());
 
+	//New Students to be added
 	System.out.println("Enter number of students you want to add");
-	Scanner in =
+	Scanner in = new Scanner(System.in);
+	int numOfStud = in.nextInt();
+	Student[] students = new Student[numOfStud];
+
 
     }
 }
