@@ -64,7 +64,7 @@ public class Student {
         System.out.println("Thank you for your payment of R" + payment);
         viewBalance();
     }
-    public String ShowInfo(){
+    public String toString(){
         return "Name: " + FirstName + " " + LastName +
                 "\n Year of Study"+ GradeYear +
                 "\n Student ID" + stuID +

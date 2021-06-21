@@ -18,7 +18,6 @@ public class Main {
 		students[n] = new Student();
 		students[n].Enroll();
 		students[n].PayTut();
-		students[n].ShowInfo();
 		System.out.println(students[n].toString());
 
 	}
