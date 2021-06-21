@@ -42,7 +42,7 @@ public class Student {
             Scanner in = new Scanner(System.in);
             String course = in.nextLine();
             if (!course.equals("Q") ) {
-                courses = courses + "\n" + course;
+                courses = courses + "\n " + course;
                 TutBalance = TutBalance + CostOfC;
             }
             else {break;}
@@ -66,7 +66,7 @@ public class Student {
     }
     public String toString(){
         return "Name: " + FirstName + " " + LastName +
-                "\n Year of Study"+ GradeYear +
+                "\n Year Of Study"+ GradeYear +
                 "\n Student ID" + stuID +
                 "\nCourses Enrolled:" + courses +
                 "\nBalance: R" + TutBalance;

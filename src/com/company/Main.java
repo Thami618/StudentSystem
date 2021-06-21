@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
-
 	//New Students to be added
 	System.out.print("Enter number of students you want to enroll: ");
 	Scanner in = new Scanner(System.in);
